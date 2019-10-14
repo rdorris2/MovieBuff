@@ -12,6 +12,7 @@ Create a Movie Recommendations list:
 1. Input: Movie name
 2. Output: List of Movie names
 3. Use keywords to create list of recommendations based off of matching keywords
+(i.e. if the input movie has the keywords "friendship" and "teamwork" then the output list will be movies that also contain one or more of those keywords)
 4. Order by # of matching keywords
 5. Top 10
 
