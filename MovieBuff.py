@@ -48,7 +48,7 @@ def predict(movieID):
 
     model = MatrixFactorizationModel.load(sc, "target/model")
 
-    completeRDD = sc.textFile('datasets/the-movies-dataset/keywords.csv')
+    completeRDD = sc.textFile('datasets/the-movies-dataset/creditss.csv')
     header = completeRDD.first()
 
     completeRDD = completeRDD.filter(lambda line : line != header)\
